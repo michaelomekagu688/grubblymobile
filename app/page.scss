@@ -1,0 +1,57 @@
+
+
+.home{
+    padding: 0 .8em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/sofa-2.jpg');
+    background-size: cover;
+    background-position: 40% 50%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+
+    .top{
+        margin-top: 1.5em;
+        
+        h1{
+            color:rgba(255, 255, 255, 0.761);
+            font-weight: 700;
+            font-size: 3.5rem;
+        }
+        p{
+            color: #ddd9d9;
+            font-size: 1rem;
+            font-weight: 550;
+        }
+    }
+    .bottom{
+        margin-bottom: 4em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        .proceed{
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: .9em .5em;
+            border: none;
+            border-radius: 2rem;
+            background-color: white;
+             -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(35, 31, 31, 0.47);
+
+            .icons{
+                font-size: 1rem;
+                font-weight: 600;
+                color: #333;
+                margin: 0 .5em;
+            }
+            .text{
+                font-weight: 600;
+            }
+        }
+    }
+}
