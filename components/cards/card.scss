@@ -1,0 +1,46 @@
+
+
+.card{
+    flex: 1;
+    margin: .5em 1em;
+
+    .ch{
+        display: flex;
+        justify-content: center;
+        margin: .5em 0;
+
+        .ch-one{
+            border-radius: .5rem;
+        }
+    }
+
+    .span-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: .8rem;
+        font-weight: 700;
+
+        .span-three{
+            display: flex;
+            gap: .2rem;
+
+            .span-label{
+                height: .3rem;
+                width: .3rem;
+                display: inline-block;
+                border-radius: 50%;
+            }
+
+            .green{
+                background-color: green;
+            }
+            .yellow{
+                background-color: yellow;
+            }
+            .black{
+                background-color: black;
+            }
+        }
+    }
+}
